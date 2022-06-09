@@ -1,9 +1,8 @@
 export const userColumns=[
-    {field:"id",headerName:"ID",width:70},
-    {field:"nom",headerName:"Nom",width:100},
-    {field:"adresse",headerName:"Adresse",width:200},
-    {field:"email",headerName:"Email",width:200},
-    {
+    {field:"nom",headerName:"Nom", editable: true,width:100},
+    {field:"adresse",headerName:"Adresse", editable: true,width:200},
+    {field:"email",headerName:"Email", editable: true,width:200},
+   /* {
        field:"fournisseur",
        headerName:"Image",
       width:230,
@@ -17,7 +16,7 @@ export const userColumns=[
         );
       },
     },
-
+*/
     {
         field:"status",
         headerName:"Status",

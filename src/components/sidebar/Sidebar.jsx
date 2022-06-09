@@ -40,6 +40,18 @@ export const Sidebar = () => {
                 </Link>
             </li>
             <li>
+                <PersonOutlinedIcon className='icon'/>
+                <Link to="/client"style={{textDecoration:"none"}}>
+                <span>Clients</span>
+                </Link>
+            </li>
+            <li>
+                <PersonOutlinedIcon className='icon'/>
+                <Link to="/employee"style={{textDecoration:"none"}}>
+                <span>Employees</span>
+                </Link>
+            </li>
+            <li>
                 <PetsIcon className='icon'/>
                 <Link to="/bovin"style={{textDecoration:"none"}}>
                 <span>Bovin</span>
